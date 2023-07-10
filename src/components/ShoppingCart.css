@@ -1,0 +1,39 @@
+.cart-container {
+  text-align: center;
+  
+}
+
+.cart-items-container {
+  max-height: 270px; 
+  overflow-y: auto;
+  margin-bottom: 10px;
+  }
+
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  }
+
+
+.cart-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-item p {
+  font-size: 18px;
+  color: #888;
+  }
+
+.cart-item button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }

@@ -1,0 +1,37 @@
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    text-align: left;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .product-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  

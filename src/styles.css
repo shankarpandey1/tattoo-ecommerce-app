@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 214, 207);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .home-container {
+    margin-top: -50px;
+  }
+  
+  .products-container {
+    margin-top: -50px;
+  }
+  
+  .cart-container {
+    margin-top: -50px;
+  }
+  
