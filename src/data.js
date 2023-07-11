@@ -9,11 +9,11 @@ const data = {
       { id: 7, name: 'Alex Deschenes', speciality: 'Traditional' },
     ],
     products: [
-      { id: 1, name: 'Mini Tattoo', price: 75 },
-      { id: 2, name: 'Small Tattoo', price: 125 },
-      { id: 3, name: 'Medium Tattoo', price: 250 },
-      { id: 4, name: 'Big Tattoo', price: 350 },
-      { id: 5, name: 'Piercing', price: 75 },
+      { id: 1, name: 'Mini Tattoo', price: 75,  image: 'minitattoo' },
+      { id: 2, name: 'Small Tattoo', price: 125,  image: 'smalltattoo' },
+      { id: 3, name: 'Medium Tattoo', price: 250,  image: 'mediumtattoo' },
+      { id: 4, name: 'Big Tattoo', price: 350, image: 'bigtattoo' },
+      { id: 5, name: 'Piercing', price: 50, image: 'piercing' },
     ],
   };
   

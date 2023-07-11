@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Products from './components/Products';
 import ProductDetails from './components/ProductDetails';
+import Contact from './components/Contact';
 import ShoppingCart from './components/ShoppingCart';
 import './App.css';
 import Header from './components/Header';
@@ -66,6 +67,9 @@ function App() {
                 <Link to="/products">Products</Link>
               </li>
               <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li>
                 <Link to="/cart">Cart</Link>
               </li>
             </ul>
@@ -85,6 +89,7 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/products" exact element={<Products />} />
             <Route path="/products/:productId" element={<ProductDetails />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<ShoppingCart />} />
           </Routes>
           </CartContext.Provider>
