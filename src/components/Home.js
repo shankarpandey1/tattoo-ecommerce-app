@@ -1,8 +1,7 @@
 import React from 'react';
 import data from '../data';
 import './Home.css';
-// import '.src/assets/Floral-tattoos.jpg';
-// import '.src/assets/flower-tattoos.webp';
+
 
 function Home() {
   return (

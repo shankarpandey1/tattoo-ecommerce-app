@@ -8,12 +8,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic, such as sending the data to a server
-    // You can access the form values in the `name`, `email`, and `message` variables
+    
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Message:', message);
-    // Reset form fields
+    
     setName('');
     setEmail('');
     setMessage('');

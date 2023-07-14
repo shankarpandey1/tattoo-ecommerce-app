@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../data';
 import './ProductDetails.css';
 import { CartContext } from '../App';
 import minitattoo from '../assets/mini-tattoo.jpg';
@@ -35,31 +34,31 @@ function ProductDetails() {
       id: 1,
       name: 'Mini Tattoo',
       price: 75,
-      image: minitattoo // set image property
+      image: minitattoo
     },
     {
       id: 2,
       name: 'Small Tattoo',
       price: 125,
-      image: smalltattoo // set image property
+      image: smalltattoo 
     },
     {
       id: 3,
       name: 'Medium Tattoo',
       price: 250,
-      image: mediumtattoo // set image property
+      image: mediumtattoo 
     },
     {
       id: 4,
       name: 'Big Tattoo',
       price: 350,
-      image: bigtattoo // set image property
+      image: bigtattoo
     },
     {
       id: 5,
       name: 'Piercing',
       price: 50,
-      image: piercing // set image property
+      image: piercing
     }
   ];
 
